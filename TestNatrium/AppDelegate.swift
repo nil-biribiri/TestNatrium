@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Natrium
+typealias NatriumConfig = Natrium.Config
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

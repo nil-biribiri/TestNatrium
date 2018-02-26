@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2110F541FCC464DCFD1A5F5493777A71 /* Pods-TestNatrium-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9467927BF7EB8AD994B7581C4A2CF225 /* Pods-TestNatrium-dummy.m */; };
+		37E4938C5D6A4F159EC98678E49D6619 /* Pods-TestNatriumUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3912363A2875CFC874792B79BC50A9 /* Pods-TestNatriumUITests-dummy.m */; };
+		3FCF639429A5A63F09C8736042DAFA29 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49311EC9D17903D9C1FE92259ADA4E39 /* Config.swift */; };
+		4199DC6FF524ED706A742F07B5AD9AA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5DB899FE34E734231925F4F72FD352B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6E7CF8A13C8EE724C9399E0C06593EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7182887BE3B91074182553095388D8AF /* Pods-TestNatriumTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 850ACE71B8391F91100225E703E32C08 /* Pods-TestNatriumTests-dummy.m */; };
+		A9C13C3EC581182DDD132F4E522961A7 /* Natrium-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D26302B48577A0E6D80268F041D2C3 /* Natrium-dummy.m */; };
+		BD9668BF40E7005797181EF1315E7100 /* Pods-TestNatriumTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B50C4BFFD094794B03B2555F07CE4CC /* Pods-TestNatriumTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE4601C8EF87A30494E2B1287F5DD33F /* Pods-TestNatriumUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B227BE9B18565047894B232F207FADD1 /* Pods-TestNatriumUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEE570DA14B381B9737014BE7AA521E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EBFA62EFDBC5C84463D2ECC85E2F145F /* Natrium-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8437478DFA31A1DC50FEF768EAA07A79 /* Natrium-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFE016F1D93C72B3001401E78DBF85A7 /* Pods-TestNatrium-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B407ED50E40E0D847C8B589EB3DD159E /* Pods-TestNatrium-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2713AFF0DC01506AB01B348476A66E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE1EDB30EB1FE40A61066A6F9A3B7F1;
+			remoteInfo = Natrium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		096ABD98BF7CF5B4DF9FF9288A65362A /* Pods-TestNatriumTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestNatriumTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09D1DFC0D0950D7273C1C48965BBC05C /* Pods-TestNatrium.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestNatrium.modulemap"; sourceTree = "<group>"; };
+		0E99D4DA82C37260AAB26B1A8C309B3A /* Pods-TestNatriumUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestNatriumUITests.modulemap"; sourceTree = "<group>"; };
+		15A8A229B9A9AE8455DAA7EF3E8387E4 /* Pods_TestNatriumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestNatriumTests.framework; path = "Pods-TestNatriumTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C90D9910CA0DC6E064EA8EED1B74902 /* Pods_TestNatriumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestNatriumUITests.framework; path = "Pods-TestNatriumUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E481DE84F5F3B59B99A7A309DFC7829 /* Pods-TestNatriumUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestNatriumUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FCE010C3681CBD83D2EB76EF37C37A1 /* Pods-TestNatrium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestNatrium.debug.xcconfig"; sourceTree = "<group>"; };
+		206AF6AAD0C73DDC3C4DF248210B71C1 /* Pods-TestNatriumUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestNatriumUITests-frameworks.sh"; sourceTree = "<group>"; };
+		27781CED35C9C538F9DB0D574F83D2D0 /* Natrium.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Natrium.modulemap; sourceTree = "<group>"; };
+		2DE7008D9EF4DF55505567CF8C91E6F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421B3916A98747987FE1BE2E69797B7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45AF745DC8F342AA5D30BF0949702970 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49311EC9D17903D9C1FE92259ADA4E39 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = bin/Config.swift; sourceTree = "<group>"; };
+		4B3DAD613B04EE1FF729A2765970F66B /* Pods_TestNatrium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestNatrium.framework; path = "Pods-TestNatrium.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CADED11931FF5801ADD380E505B34D0 /* Pods-TestNatriumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestNatriumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F476FCDD3BC9FBA54CBA8D18AA0CA39 /* Pods-TestNatrium-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestNatrium-frameworks.sh"; sourceTree = "<group>"; };
+		5FF4270F3E717FB2D36721B843BDC480 /* Pods-TestNatriumTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestNatriumTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		60725390EA972C0B6E8926CBB0402184 /* Natrium.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Natrium.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		807D028ED3767167F8A3011EE07A21F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8437478DFA31A1DC50FEF768EAA07A79 /* Natrium-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Natrium-umbrella.h"; sourceTree = "<group>"; };
+		850ACE71B8391F91100225E703E32C08 /* Pods-TestNatriumTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestNatriumTests-dummy.m"; sourceTree = "<group>"; };
+		8EF88B0EF88469DF40D7A3B171C5B852 /* Pods-TestNatrium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestNatrium.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9467927BF7EB8AD994B7581C4A2CF225 /* Pods-TestNatrium-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestNatrium-dummy.m"; sourceTree = "<group>"; };
+		9B50C4BFFD094794B03B2555F07CE4CC /* Pods-TestNatriumTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestNatriumTests-umbrella.h"; sourceTree = "<group>"; };
+		ACB998F482585E997116CA3A4AF00E3A /* Pods-TestNatriumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestNatriumTests.release.xcconfig"; sourceTree = "<group>"; };
+		B227BE9B18565047894B232F207FADD1 /* Pods-TestNatriumUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestNatriumUITests-umbrella.h"; sourceTree = "<group>"; };
+		B407ED50E40E0D847C8B589EB3DD159E /* Pods-TestNatrium-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestNatrium-umbrella.h"; sourceTree = "<group>"; };
+		B53B7ED1D007982A6063D807B7BD7FC1 /* Natrium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Natrium.framework; path = Natrium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B3D07F3D2076FC346565C7C2B50F2D /* Pods-TestNatriumUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestNatriumUITests-resources.sh"; sourceTree = "<group>"; };
+		BE45116A878F009AE9D1C98D9D76AC3F /* Pods-TestNatriumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestNatriumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBC9DB818F659C36D3A198E1F9CE9F7A /* Pods-TestNatriumUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestNatriumUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC4ECB527C00AEE773F3F686A800DC1E /* Pods-TestNatrium-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestNatrium-acknowledgements.plist"; sourceTree = "<group>"; };
+		D97B99DD754732A42A22F18F0B621EFD /* Pods-TestNatriumTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestNatriumTests-frameworks.sh"; sourceTree = "<group>"; };
+		DA6E08F8248A01902B74D15674DF1629 /* Pods-TestNatrium-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestNatrium-resources.sh"; sourceTree = "<group>"; };
+		DC3912363A2875CFC874792B79BC50A9 /* Pods-TestNatriumUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestNatriumUITests-dummy.m"; sourceTree = "<group>"; };
+		DD1EE8847075B2ED992E1CFE2BD72A0C /* Pods-TestNatrium-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestNatrium-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE2391F0F8CFE72342CB7DB1932F3819 /* Pods-TestNatriumTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestNatriumTests.modulemap"; sourceTree = "<group>"; };
+		E2FFF5AE372065B8240ADDFB45C73F20 /* Pods-TestNatriumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestNatriumUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3EB3959EFC4C5F9F7DC430F6D85912C /* Natrium-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Natrium-prefix.pch"; sourceTree = "<group>"; };
+		E5D26302B48577A0E6D80268F041D2C3 /* Natrium-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Natrium-dummy.m"; sourceTree = "<group>"; };
+		F7B3ED1EE4665F52D49C53E1B7859DD7 /* Pods-TestNatriumTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestNatriumTests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5886F9DF9C09BA8E069DF62A1058A48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7CF8A13C8EE724C9399E0C06593EFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69228F059C76759DF2424E8497688F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4199DC6FF524ED706A742F07B5AD9AA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ABC2360C9E294C92162334607F0F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE570DA14B381B9737014BE7AA521E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96779F21F290A74B0ED8F32BCACE5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB899FE34E734231925F4F72FD352B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00220DEBF86F2CBC20345753A75D5CC5 /* Pods-TestNatrium */ = {
+			isa = PBXGroup;
+			children = (
+				807D028ED3767167F8A3011EE07A21F1 /* Info.plist */,
+				09D1DFC0D0950D7273C1C48965BBC05C /* Pods-TestNatrium.modulemap */,
+				DD1EE8847075B2ED992E1CFE2BD72A0C /* Pods-TestNatrium-acknowledgements.markdown */,
+				CC4ECB527C00AEE773F3F686A800DC1E /* Pods-TestNatrium-acknowledgements.plist */,
+				9467927BF7EB8AD994B7581C4A2CF225 /* Pods-TestNatrium-dummy.m */,
+				5F476FCDD3BC9FBA54CBA8D18AA0CA39 /* Pods-TestNatrium-frameworks.sh */,
+				DA6E08F8248A01902B74D15674DF1629 /* Pods-TestNatrium-resources.sh */,
+				B407ED50E40E0D847C8B589EB3DD159E /* Pods-TestNatrium-umbrella.h */,
+				1FCE010C3681CBD83D2EB76EF37C37A1 /* Pods-TestNatrium.debug.xcconfig */,
+				8EF88B0EF88469DF40D7A3B171C5B852 /* Pods-TestNatrium.release.xcconfig */,
+			);
+			name = "Pods-TestNatrium";
+			path = "Target Support Files/Pods-TestNatrium";
+			sourceTree = "<group>";
+		};
+		2F588BA131902B56EA0A4907D3F3C55E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00220DEBF86F2CBC20345753A75D5CC5 /* Pods-TestNatrium */,
+				C2B9C92388167751140405AD7EA98B0F /* Pods-TestNatriumTests */,
+				DD9989474E697D2FB0AC52DBD2CE36EE /* Pods-TestNatriumUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3033815BD61BEEB9B1C0146FCCA104C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA3E31BCBB160EE8CF1B02372A0CC764 /* Natrium */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E2404EA39C0FBCDD97D04AB79FFE24A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53B7ED1D007982A6063D807B7BD7FC1 /* Natrium.framework */,
+				4B3DAD613B04EE1FF729A2765970F66B /* Pods_TestNatrium.framework */,
+				15A8A229B9A9AE8455DAA7EF3E8387E4 /* Pods_TestNatriumTests.framework */,
+				1C90D9910CA0DC6E064EA8EED1B74902 /* Pods_TestNatriumUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3033815BD61BEEB9B1C0146FCCA104C4 /* Pods */,
+				4E2404EA39C0FBCDD97D04AB79FFE24A /* Products */,
+				2F588BA131902B56EA0A4907D3F3C55E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90FEE2000DAE7EF86A0F7B9E62C99561 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DE7008D9EF4DF55505567CF8C91E6F9 /* Info.plist */,
+				27781CED35C9C538F9DB0D574F83D2D0 /* Natrium.modulemap */,
+				60725390EA972C0B6E8926CBB0402184 /* Natrium.xcconfig */,
+				E5D26302B48577A0E6D80268F041D2C3 /* Natrium-dummy.m */,
+				E3EB3959EFC4C5F9F7DC430F6D85912C /* Natrium-prefix.pch */,
+				8437478DFA31A1DC50FEF768EAA07A79 /* Natrium-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Natrium";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2B9C92388167751140405AD7EA98B0F /* Pods-TestNatriumTests */ = {
+			isa = PBXGroup;
+			children = (
+				45AF745DC8F342AA5D30BF0949702970 /* Info.plist */,
+				DE2391F0F8CFE72342CB7DB1932F3819 /* Pods-TestNatriumTests.modulemap */,
+				096ABD98BF7CF5B4DF9FF9288A65362A /* Pods-TestNatriumTests-acknowledgements.markdown */,
+				5FF4270F3E717FB2D36721B843BDC480 /* Pods-TestNatriumTests-acknowledgements.plist */,
+				850ACE71B8391F91100225E703E32C08 /* Pods-TestNatriumTests-dummy.m */,
+				D97B99DD754732A42A22F18F0B621EFD /* Pods-TestNatriumTests-frameworks.sh */,
+				F7B3ED1EE4665F52D49C53E1B7859DD7 /* Pods-TestNatriumTests-resources.sh */,
+				9B50C4BFFD094794B03B2555F07CE4CC /* Pods-TestNatriumTests-umbrella.h */,
+				BE45116A878F009AE9D1C98D9D76AC3F /* Pods-TestNatriumTests.debug.xcconfig */,
+				ACB998F482585E997116CA3A4AF00E3A /* Pods-TestNatriumTests.release.xcconfig */,
+			);
+			name = "Pods-TestNatriumTests";
+			path = "Target Support Files/Pods-TestNatriumTests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA3E31BCBB160EE8CF1B02372A0CC764 /* Natrium */ = {
+			isa = PBXGroup;
+			children = (
+				49311EC9D17903D9C1FE92259ADA4E39 /* Config.swift */,
+				90FEE2000DAE7EF86A0F7B9E62C99561 /* Support Files */,
+			);
+			name = Natrium;
+			path = Natrium;
+			sourceTree = "<group>";
+		};
+		DD9989474E697D2FB0AC52DBD2CE36EE /* Pods-TestNatriumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				421B3916A98747987FE1BE2E69797B7B /* Info.plist */,
+				0E99D4DA82C37260AAB26B1A8C309B3A /* Pods-TestNatriumUITests.modulemap */,
+				CBC9DB818F659C36D3A198E1F9CE9F7A /* Pods-TestNatriumUITests-acknowledgements.markdown */,
+				1E481DE84F5F3B59B99A7A309DFC7829 /* Pods-TestNatriumUITests-acknowledgements.plist */,
+				DC3912363A2875CFC874792B79BC50A9 /* Pods-TestNatriumUITests-dummy.m */,
+				206AF6AAD0C73DDC3C4DF248210B71C1 /* Pods-TestNatriumUITests-frameworks.sh */,
+				B9B3D07F3D2076FC346565C7C2B50F2D /* Pods-TestNatriumUITests-resources.sh */,
+				B227BE9B18565047894B232F207FADD1 /* Pods-TestNatriumUITests-umbrella.h */,
+				4CADED11931FF5801ADD380E505B34D0 /* Pods-TestNatriumUITests.debug.xcconfig */,
+				E2FFF5AE372065B8240ADDFB45C73F20 /* Pods-TestNatriumUITests.release.xcconfig */,
+			);
+			name = "Pods-TestNatriumUITests";
+			path = "Target Support Files/Pods-TestNatriumUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19BB7916C355DAA528795C6E46E9C4CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4601C8EF87A30494E2B1287F5DD33F /* Pods-TestNatriumUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CE907CE97691C807EAED0E88DBA025 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9668BF40E7005797181EF1315E7100 /* Pods-TestNatriumTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905628692725E9A8DC5FF60DAF1327A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFA62EFDBC5C84463D2ECC85E2F145F /* Natrium-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80ADFF87DDBCBE315248C7328C25BEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE016F1D93C72B3001401E78DBF85A7 /* Pods-TestNatrium-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84DA24B8A4E54535ED80C68DF7672951 /* Pods-TestNatriumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB10CB32C8408C901ABFFEBE44BCFBD /* Build configuration list for PBXNativeTarget "Pods-TestNatriumTests" */;
+			buildPhases = (
+				C33732375FC2E1093A849C582E42A861 /* Sources */,
+				5886F9DF9C09BA8E069DF62A1058A48F /* Frameworks */,
+				65CE907CE97691C807EAED0E88DBA025 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TestNatriumTests";
+			productName = "Pods-TestNatriumTests";
+			productReference = 15A8A229B9A9AE8455DAA7EF3E8387E4 /* Pods_TestNatriumTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBE1EDB30EB1FE40A61066A6F9A3B7F1 /* Natrium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE4ACB7BA7444502FEB038A20443773 /* Build configuration list for PBXNativeTarget "Natrium" */;
+			buildPhases = (
+				373FCB95F0C6CC21985A400EEC4CA4FC /* Sources */,
+				83ABC2360C9E294C92162334607F0F46 /* Frameworks */,
+				905628692725E9A8DC5FF60DAF1327A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Natrium;
+			productName = Natrium;
+			productReference = B53B7ED1D007982A6063D807B7BD7FC1 /* Natrium.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D64C80E3147C200EF9D63AB35699CCF6 /* Pods-TestNatriumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDA08A69016F3C4E661733F06299B03 /* Build configuration list for PBXNativeTarget "Pods-TestNatriumUITests" */;
+			buildPhases = (
+				B212242CA3D39DB3A60CDEBCB7232C62 /* Sources */,
+				69228F059C76759DF2424E8497688F31 /* Frameworks */,
+				19BB7916C355DAA528795C6E46E9C4CD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TestNatriumUITests";
+			productName = "Pods-TestNatriumUITests";
+			productReference = 1C90D9910CA0DC6E064EA8EED1B74902 /* Pods_TestNatriumUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5194C8A90BD082F3D61DB6D22F0C160 /* Pods-TestNatrium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9071D7406C70AF4836BA2218F3B1B8B0 /* Build configuration list for PBXNativeTarget "Pods-TestNatrium" */;
+			buildPhases = (
+				3A23117156ED3EF66A70932A229337AF /* Sources */,
+				F96779F21F290A74B0ED8F32BCACE5AF /* Frameworks */,
+				F80ADFF87DDBCBE315248C7328C25BEF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C80364BC97196A7E8F82999A73A70AF /* PBXTargetDependency */,
+			);
+			name = "Pods-TestNatrium";
+			productName = "Pods-TestNatrium";
+			productReference = 4B3DAD613B04EE1FF729A2765970F66B /* Pods_TestNatrium.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4E2404EA39C0FBCDD97D04AB79FFE24A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBE1EDB30EB1FE40A61066A6F9A3B7F1 /* Natrium */,
+				E5194C8A90BD082F3D61DB6D22F0C160 /* Pods-TestNatrium */,
+				84DA24B8A4E54535ED80C68DF7672951 /* Pods-TestNatriumTests */,
+				D64C80E3147C200EF9D63AB35699CCF6 /* Pods-TestNatriumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373FCB95F0C6CC21985A400EEC4CA4FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCF639429A5A63F09C8736042DAFA29 /* Config.swift in Sources */,
+				A9C13C3EC581182DDD132F4E522961A7 /* Natrium-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A23117156ED3EF66A70932A229337AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2110F541FCC464DCFD1A5F5493777A71 /* Pods-TestNatrium-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B212242CA3D39DB3A60CDEBCB7232C62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E4938C5D6A4F159EC98678E49D6619 /* Pods-TestNatriumUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33732375FC2E1093A849C582E42A861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7182887BE3B91074182553095388D8AF /* Pods-TestNatriumTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C80364BC97196A7E8F82999A73A70AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Natrium;
+			target = BBE1EDB30EB1FE40A61066A6F9A3B7F1 /* Natrium */;
+			targetProxy = 2713AFF0DC01506AB01B348476A66E41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01C65CBE4A40D1C9ECA128014DE61B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FFF5AE372065B8240ADDFB45C73F20 /* Pods-TestNatriumUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestNatriumUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestNatriumUITests/Pods-TestNatriumUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestNatriumUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		039568468F46EB418951E04F9101A060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CADED11931FF5801ADD380E505B34D0 /* Pods-TestNatriumUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestNatriumUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestNatriumUITests/Pods-TestNatriumUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestNatriumUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19B6055B9E6960231DB9865E6F1E132A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB998F482585E997116CA3A4AF00E3A /* Pods-TestNatriumTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestNatriumTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestNatriumTests/Pods-TestNatriumTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestNatriumTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		474A0CCF8F27ECA4005D7AB8BAEC083C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60725390EA972C0B6E8926CBB0402184 /* Natrium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Natrium/Natrium-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Natrium/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Natrium/Natrium.modulemap";
+				PRODUCT_NAME = Natrium;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4849AF6084CCF6322E070B43EA825707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE45116A878F009AE9D1C98D9D76AC3F /* Pods-TestNatriumTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestNatriumTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestNatriumTests/Pods-TestNatriumTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestNatriumTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DC91D9CF3B2AA735D29D031FEA1BBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FCE010C3681CBD83D2EB76EF37C37A1 /* Pods-TestNatrium.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestNatrium/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestNatrium/Pods-TestNatrium.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestNatrium;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83033AAD27891F6AB2E0B1E71502CE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60725390EA972C0B6E8926CBB0402184 /* Natrium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Natrium/Natrium-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Natrium/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Natrium/Natrium.modulemap";
+				PRODUCT_NAME = Natrium;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E086EE6C4E7D37AEF1B4B90B8D4DF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF88B0EF88469DF40D7A3B171C5B852 /* Pods-TestNatrium.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestNatrium/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestNatrium/Pods-TestNatrium.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TestNatrium;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9071D7406C70AF4836BA2218F3B1B8B0 /* Build configuration list for PBXNativeTarget "Pods-TestNatrium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC91D9CF3B2AA735D29D031FEA1BBE8 /* Debug */,
+				E086EE6C4E7D37AEF1B4B90B8D4DF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB10CB32C8408C901ABFFEBE44BCFBD /* Build configuration list for PBXNativeTarget "Pods-TestNatriumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4849AF6084CCF6322E070B43EA825707 /* Debug */,
+				19B6055B9E6960231DB9865E6F1E132A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE4ACB7BA7444502FEB038A20443773 /* Build configuration list for PBXNativeTarget "Natrium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474A0CCF8F27ECA4005D7AB8BAEC083C /* Debug */,
+				83033AAD27891F6AB2E0B1E71502CE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDA08A69016F3C4E661733F06299B03 /* Build configuration list for PBXNativeTarget "Pods-TestNatriumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039568468F46EB418951E04F9101A060 /* Debug */,
+				01C65CBE4A40D1C9ECA128014DE61B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

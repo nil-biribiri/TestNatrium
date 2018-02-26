@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E579008D8246055B4CA73A7 /* Pods_TestNatrium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42602E189432FCBB58C7109 /* Pods_TestNatrium.framework */; };
+		58021395F599E4773C75619F /* Pods_TestNatriumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857B02CB19C7E74C945446C8 /* Pods_TestNatriumTests.framework */; };
 		A18BC93E2043FCB5008C188B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18BC93D2043FCB5008C188B /* AppDelegate.swift */; };
 		A18BC9402043FCB5008C188B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18BC93F2043FCB5008C188B /* ViewController.swift */; };
 		A18BC9432043FCB5008C188B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18BC9412043FCB5008C188B /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		A18BC9482043FCB5008C188B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18BC9462043FCB5008C188B /* LaunchScreen.storyboard */; };
 		A18BC9532043FCB5008C188B /* TestNatriumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18BC9522043FCB5008C188B /* TestNatriumTests.swift */; };
 		A18BC95E2043FCB5008C188B /* TestNatriumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18BC95D2043FCB5008C188B /* TestNatriumUITests.swift */; };
+		A18BC9702043FFDC008C188B /* .natrium.yml in Resources */ = {isa = PBXBuildFile; fileRef = A18BC96F2043FFDC008C188B /* .natrium.yml */; };
+		A18BC97320440E4D008C188B /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A18BC97220440E4D008C188B /* icon.jpg */; };
+		EEC93F6285911C6B34E79692 /* Pods_TestNatriumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C637665960367A327B3C3B /* Pods_TestNatriumUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24C637665960367A327B3C3B /* Pods_TestNatriumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestNatriumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		537FDDBA15D702E8FC6A54DA /* Pods-TestNatrium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNatrium.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestNatrium/Pods-TestNatrium.debug.xcconfig"; sourceTree = "<group>"; };
+		5E5A00EFC65D0D39D245C09B /* Pods-TestNatriumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNatriumTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestNatriumTests/Pods-TestNatriumTests.release.xcconfig"; sourceTree = "<group>"; };
+		7FD919325C2A040C81AF5E93 /* Pods-TestNatriumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNatriumTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestNatriumTests/Pods-TestNatriumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		857B02CB19C7E74C945446C8 /* Pods_TestNatriumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestNatriumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18BC93A2043FCB5008C188B /* TestNatrium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNatrium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18BC93D2043FCB5008C188B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A18BC93F2043FCB5008C188B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,12 @@
 		A18BC9592043FCB5008C188B /* TestNatriumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNatriumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18BC95D2043FCB5008C188B /* TestNatriumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNatriumUITests.swift; sourceTree = "<group>"; };
 		A18BC95F2043FCB5008C188B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18BC96F2043FFDC008C188B /* .natrium.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .natrium.yml; sourceTree = SOURCE_ROOT; };
+		A18BC97220440E4D008C188B /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
+		B7B54927371A77B688A1D593 /* Pods-TestNatrium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNatrium.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestNatrium/Pods-TestNatrium.release.xcconfig"; sourceTree = "<group>"; };
+		B8E6902AAC8FF380F941188A /* Pods-TestNatriumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNatriumUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestNatriumUITests/Pods-TestNatriumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D42602E189432FCBB58C7109 /* Pods_TestNatrium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestNatrium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E777FE33496C17B5971AF2CF /* Pods-TestNatriumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNatriumUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestNatriumUITests/Pods-TestNatriumUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E579008D8246055B4CA73A7 /* Pods_TestNatrium.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58021395F599E4773C75619F /* Pods_TestNatriumTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC93F6285911C6B34E79692 /* Pods_TestNatriumUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D37B46A42BEDE0C6E9F99E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D42602E189432FCBB58C7109 /* Pods_TestNatrium.framework */,
+				857B02CB19C7E74C945446C8 /* Pods_TestNatriumTests.framework */,
+				24C637665960367A327B3C3B /* Pods_TestNatriumUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845E1F3A5B63A642985DB758 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				537FDDBA15D702E8FC6A54DA /* Pods-TestNatrium.debug.xcconfig */,
+				B7B54927371A77B688A1D593 /* Pods-TestNatrium.release.xcconfig */,
+				7FD919325C2A040C81AF5E93 /* Pods-TestNatriumTests.debug.xcconfig */,
+				5E5A00EFC65D0D39D245C09B /* Pods-TestNatriumTests.release.xcconfig */,
+				B8E6902AAC8FF380F941188A /* Pods-TestNatriumUITests.debug.xcconfig */,
+				E777FE33496C17B5971AF2CF /* Pods-TestNatriumUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A18BC9312043FCB5008C188B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				A18BC9512043FCB5008C188B /* TestNatriumTests */,
 				A18BC95C2043FCB5008C188B /* TestNatriumUITests */,
 				A18BC93B2043FCB5008C188B /* Products */,
+				845E1F3A5B63A642985DB758 /* Pods */,
+				5D37B46A42BEDE0C6E9F99E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +141,8 @@
 		A18BC93C2043FCB5008C188B /* TestNatrium */ = {
 			isa = PBXGroup;
 			children = (
+				A18BC97120440E35008C188B /* resource */,
+				A18BC96F2043FFDC008C188B /* .natrium.yml */,
 				A18BC93D2043FCB5008C188B /* AppDelegate.swift */,
 				A18BC93F2043FCB5008C188B /* ViewController.swift */,
 				A18BC9412043FCB5008C188B /* Main.storyboard */,
@@ -125,6 +171,14 @@
 			path = TestNatriumUITests;
 			sourceTree = "<group>";
 		};
+		A18BC97120440E35008C188B /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				A18BC97220440E4D008C188B /* icon.jpg */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A18BC9622043FCB5008C188B /* Build configuration list for PBXNativeTarget "TestNatrium" */;
 			buildPhases = (
+				0A04C75C3D6D9A7FC0D51D81 /* [CP] Check Pods Manifest.lock */,
 				A18BC9362043FCB5008C188B /* Sources */,
 				A18BC9372043FCB5008C188B /* Frameworks */,
 				A18BC9382043FCB5008C188B /* Resources */,
+				54D21B16B2A3434DFD83B127 /* [CP] Embed Pods Frameworks */,
+				6200CCF442DDFD867EE4CA0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A18BC9652043FCB5008C188B /* Build configuration list for PBXNativeTarget "TestNatriumTests" */;
 			buildPhases = (
+				A1601E308D859A5555550001 /* [CP] Check Pods Manifest.lock */,
 				A18BC94A2043FCB5008C188B /* Sources */,
 				A18BC94B2043FCB5008C188B /* Frameworks */,
 				A18BC94C2043FCB5008C188B /* Resources */,
+				F8B00A57EF5836476547364A /* [CP] Embed Pods Frameworks */,
+				431E53742BFA45649A9188FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A18BC9682043FCB5008C188B /* Build configuration list for PBXNativeTarget "TestNatriumUITests" */;
 			buildPhases = (
+				1C1A848FA93D8783E955EE75 /* [CP] Check Pods Manifest.lock */,
 				A18BC9552043FCB5008C188B /* Sources */,
 				A18BC9562043FCB5008C188B /* Frameworks */,
 				A18BC9572043FCB5008C188B /* Resources */,
+				C13E9207A1CB7D65CCADA019 /* [CP] Embed Pods Frameworks */,
+				B8FACCAD0447C7C3EC7178B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,7 +296,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A18BC9482043FCB5008C188B /* LaunchScreen.storyboard in Resources */,
+				A18BC97320440E4D008C188B /* icon.jpg in Resources */,
 				A18BC9452043FCB5008C188B /* Assets.xcassets in Resources */,
+				A18BC9702043FFDC008C188B /* .natrium.yml in Resources */,
 				A18BC9432043FCB5008C188B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +318,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A04C75C3D6D9A7FC0D51D81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestNatrium-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C1A848FA93D8783E955EE75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestNatriumUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		431E53742BFA45649A9188FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestNatriumTests/Pods-TestNatriumTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54D21B16B2A3434DFD83B127 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestNatrium/Pods-TestNatrium-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Natrium/Natrium.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Natrium.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestNatrium/Pods-TestNatrium-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6200CCF442DDFD867EE4CA0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestNatrium/Pods-TestNatrium-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1601E308D859A5555550001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestNatriumTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8FACCAD0447C7C3EC7178B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestNatriumUITests/Pods-TestNatriumUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C13E9207A1CB7D65CCADA019 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestNatriumUITests/Pods-TestNatriumUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B00A57EF5836476547364A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestNatriumTests/Pods-TestNatriumTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A18BC9362043FCB5008C188B /* Sources */ = {
@@ -424,13 +639,13 @@
 		};
 		A18BC9632043FCB5008C188B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537FDDBA15D702E8FC6A54DA /* Pods-TestNatrium.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FN9UCUANU6;
 				INFOPLIST_FILE = TestNatrium/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Nilnilnil.TestNatrium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -439,13 +654,13 @@
 		};
 		A18BC9642043FCB5008C188B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B54927371A77B688A1D593 /* Pods-TestNatrium.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FN9UCUANU6;
 				INFOPLIST_FILE = TestNatrium/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Nilnilnil.TestNatrium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,6 +669,7 @@
 		};
 		A18BC9662043FCB5008C188B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD919325C2A040C81AF5E93 /* Pods-TestNatriumTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +687,7 @@
 		};
 		A18BC9672043FCB5008C188B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5A00EFC65D0D39D245C09B /* Pods-TestNatriumTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +705,7 @@
 		};
 		A18BC9692043FCB5008C188B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E6902AAC8FF380F941188A /* Pods-TestNatriumUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +722,7 @@
 		};
 		A18BC96A2043FCB5008C188B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E777FE33496C17B5971AF2CF /* Pods-TestNatriumUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

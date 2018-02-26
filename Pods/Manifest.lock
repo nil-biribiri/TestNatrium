@@ -1,0 +1,12 @@
+PODS:
+  - Natrium (5.6.0)
+
+DEPENDENCIES:
+  - Natrium
+
+SPEC CHECKSUMS:
+  Natrium: 6c30e44eb6c19b02eee1ac00cded09a9cfa8fe1d
+
+PODFILE CHECKSUM: a10d70390360153070b9194803bd66d9fbddf2d8
+
+COCOAPODS: 1.4.0

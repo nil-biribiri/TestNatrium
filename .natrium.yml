@@ -1,0 +1,23 @@
+environments:
+    - Staging
+    - Production
+
+xcconfig:
+    PRODUCT_BUNDLE_IDENTIFIER:
+        Staging: com.Nilnilnil.Stagging.TestNatrium
+        Production:
+            Debug: com.Nilnilnil.Production.TestNatrium
+            Release: com.Nilnilnil.Production.TestNatrium
+
+appicon:
+    original: TestNatrium/resource/icon.jpg
+    appiconset: TestNatrium/Assets.xcassets/AppIcon.appiconset/
+    idioms:
+        - iphone
+    ribbon:
+        Production:
+            Debug: "PRODUCTION"
+            Release: ""
+        Staging:
+            Debug: "STAGING"
+            Release: ""
