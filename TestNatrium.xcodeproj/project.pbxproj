@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A18BC93E2043FCB5008C188B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18BC93D2043FCB5008C188B /* AppDelegate.swift */; };
+		A18BC9402043FCB5008C188B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18BC93F2043FCB5008C188B /* ViewController.swift */; };
+		A18BC9432043FCB5008C188B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18BC9412043FCB5008C188B /* Main.storyboard */; };
+		A18BC9452043FCB5008C188B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18BC9442043FCB5008C188B /* Assets.xcassets */; };
+		A18BC9482043FCB5008C188B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18BC9462043FCB5008C188B /* LaunchScreen.storyboard */; };
+		A18BC9532043FCB5008C188B /* TestNatriumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18BC9522043FCB5008C188B /* TestNatriumTests.swift */; };
+		A18BC95E2043FCB5008C188B /* TestNatriumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18BC95D2043FCB5008C188B /* TestNatriumUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A18BC94F2043FCB5008C188B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A18BC9322043FCB5008C188B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A18BC9392043FCB5008C188B;
+			remoteInfo = TestNatrium;
+		};
+		A18BC95A2043FCB5008C188B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A18BC9322043FCB5008C188B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A18BC9392043FCB5008C188B;
+			remoteInfo = TestNatrium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A18BC93A2043FCB5008C188B /* TestNatrium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNatrium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18BC93D2043FCB5008C188B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A18BC93F2043FCB5008C188B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A18BC9422043FCB5008C188B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A18BC9442043FCB5008C188B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A18BC9472043FCB5008C188B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A18BC9492043FCB5008C188B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18BC94E2043FCB5008C188B /* TestNatriumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNatriumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18BC9522043FCB5008C188B /* TestNatriumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNatriumTests.swift; sourceTree = "<group>"; };
+		A18BC9542043FCB5008C188B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18BC9592043FCB5008C188B /* TestNatriumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNatriumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18BC95D2043FCB5008C188B /* TestNatriumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNatriumUITests.swift; sourceTree = "<group>"; };
+		A18BC95F2043FCB5008C188B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A18BC9372043FCB5008C188B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18BC94B2043FCB5008C188B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18BC9562043FCB5008C188B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A18BC9312043FCB5008C188B = {
+			isa = PBXGroup;
+			children = (
+				A18BC93C2043FCB5008C188B /* TestNatrium */,
+				A18BC9512043FCB5008C188B /* TestNatriumTests */,
+				A18BC95C2043FCB5008C188B /* TestNatriumUITests */,
+				A18BC93B2043FCB5008C188B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A18BC93B2043FCB5008C188B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A18BC93A2043FCB5008C188B /* TestNatrium.app */,
+				A18BC94E2043FCB5008C188B /* TestNatriumTests.xctest */,
+				A18BC9592043FCB5008C188B /* TestNatriumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A18BC93C2043FCB5008C188B /* TestNatrium */ = {
+			isa = PBXGroup;
+			children = (
+				A18BC93D2043FCB5008C188B /* AppDelegate.swift */,
+				A18BC93F2043FCB5008C188B /* ViewController.swift */,
+				A18BC9412043FCB5008C188B /* Main.storyboard */,
+				A18BC9442043FCB5008C188B /* Assets.xcassets */,
+				A18BC9462043FCB5008C188B /* LaunchScreen.storyboard */,
+				A18BC9492043FCB5008C188B /* Info.plist */,
+			);
+			path = TestNatrium;
+			sourceTree = "<group>";
+		};
+		A18BC9512043FCB5008C188B /* TestNatriumTests */ = {
+			isa = PBXGroup;
+			children = (
+				A18BC9522043FCB5008C188B /* TestNatriumTests.swift */,
+				A18BC9542043FCB5008C188B /* Info.plist */,
+			);
+			path = TestNatriumTests;
+			sourceTree = "<group>";
+		};
+		A18BC95C2043FCB5008C188B /* TestNatriumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A18BC95D2043FCB5008C188B /* TestNatriumUITests.swift */,
+				A18BC95F2043FCB5008C188B /* Info.plist */,
+			);
+			path = TestNatriumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A18BC9392043FCB5008C188B /* TestNatrium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A18BC9622043FCB5008C188B /* Build configuration list for PBXNativeTarget "TestNatrium" */;
+			buildPhases = (
+				A18BC9362043FCB5008C188B /* Sources */,
+				A18BC9372043FCB5008C188B /* Frameworks */,
+				A18BC9382043FCB5008C188B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestNatrium;
+			productName = TestNatrium;
+			productReference = A18BC93A2043FCB5008C188B /* TestNatrium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A18BC94D2043FCB5008C188B /* TestNatriumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A18BC9652043FCB5008C188B /* Build configuration list for PBXNativeTarget "TestNatriumTests" */;
+			buildPhases = (
+				A18BC94A2043FCB5008C188B /* Sources */,
+				A18BC94B2043FCB5008C188B /* Frameworks */,
+				A18BC94C2043FCB5008C188B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A18BC9502043FCB5008C188B /* PBXTargetDependency */,
+			);
+			name = TestNatriumTests;
+			productName = TestNatriumTests;
+			productReference = A18BC94E2043FCB5008C188B /* TestNatriumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A18BC9582043FCB5008C188B /* TestNatriumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A18BC9682043FCB5008C188B /* Build configuration list for PBXNativeTarget "TestNatriumUITests" */;
+			buildPhases = (
+				A18BC9552043FCB5008C188B /* Sources */,
+				A18BC9562043FCB5008C188B /* Frameworks */,
+				A18BC9572043FCB5008C188B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A18BC95B2043FCB5008C188B /* PBXTargetDependency */,
+			);
+			name = TestNatriumUITests;
+			productName = TestNatriumUITests;
+			productReference = A18BC9592043FCB5008C188B /* TestNatriumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A18BC9322043FCB5008C188B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Tanasak.Nge;
+				TargetAttributes = {
+					A18BC9392043FCB5008C188B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A18BC94D2043FCB5008C188B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A18BC9392043FCB5008C188B;
+					};
+					A18BC9582043FCB5008C188B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A18BC9392043FCB5008C188B;
+					};
+				};
+			};
+			buildConfigurationList = A18BC9352043FCB5008C188B /* Build configuration list for PBXProject "TestNatrium" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A18BC9312043FCB5008C188B;
+			productRefGroup = A18BC93B2043FCB5008C188B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A18BC9392043FCB5008C188B /* TestNatrium */,
+				A18BC94D2043FCB5008C188B /* TestNatriumTests */,
+				A18BC9582043FCB5008C188B /* TestNatriumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A18BC9382043FCB5008C188B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18BC9482043FCB5008C188B /* LaunchScreen.storyboard in Resources */,
+				A18BC9452043FCB5008C188B /* Assets.xcassets in Resources */,
+				A18BC9432043FCB5008C188B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18BC94C2043FCB5008C188B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18BC9572043FCB5008C188B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A18BC9362043FCB5008C188B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18BC9402043FCB5008C188B /* ViewController.swift in Sources */,
+				A18BC93E2043FCB5008C188B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18BC94A2043FCB5008C188B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18BC9532043FCB5008C188B /* TestNatriumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18BC9552043FCB5008C188B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18BC95E2043FCB5008C188B /* TestNatriumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A18BC9502043FCB5008C188B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A18BC9392043FCB5008C188B /* TestNatrium */;
+			targetProxy = A18BC94F2043FCB5008C188B /* PBXContainerItemProxy */;
+		};
+		A18BC95B2043FCB5008C188B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A18BC9392043FCB5008C188B /* TestNatrium */;
+			targetProxy = A18BC95A2043FCB5008C188B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A18BC9412043FCB5008C188B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A18BC9422043FCB5008C188B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A18BC9462043FCB5008C188B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A18BC9472043FCB5008C188B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A18BC9602043FCB5008C188B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A18BC9612043FCB5008C188B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A18BC9632043FCB5008C188B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN9UCUANU6;
+				INFOPLIST_FILE = TestNatrium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nilnilnil.TestNatrium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A18BC9642043FCB5008C188B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN9UCUANU6;
+				INFOPLIST_FILE = TestNatrium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nilnilnil.TestNatrium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A18BC9662043FCB5008C188B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN9UCUANU6;
+				INFOPLIST_FILE = TestNatriumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nilnilnil.TestNatriumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestNatrium.app/TestNatrium";
+			};
+			name = Debug;
+		};
+		A18BC9672043FCB5008C188B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN9UCUANU6;
+				INFOPLIST_FILE = TestNatriumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nilnilnil.TestNatriumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestNatrium.app/TestNatrium";
+			};
+			name = Release;
+		};
+		A18BC9692043FCB5008C188B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN9UCUANU6;
+				INFOPLIST_FILE = TestNatriumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nilnilnil.TestNatriumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestNatrium;
+			};
+			name = Debug;
+		};
+		A18BC96A2043FCB5008C188B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN9UCUANU6;
+				INFOPLIST_FILE = TestNatriumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nilnilnil.TestNatriumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestNatrium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A18BC9352043FCB5008C188B /* Build configuration list for PBXProject "TestNatrium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18BC9602043FCB5008C188B /* Debug */,
+				A18BC9612043FCB5008C188B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A18BC9622043FCB5008C188B /* Build configuration list for PBXNativeTarget "TestNatrium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18BC9632043FCB5008C188B /* Debug */,
+				A18BC9642043FCB5008C188B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A18BC9652043FCB5008C188B /* Build configuration list for PBXNativeTarget "TestNatriumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18BC9662043FCB5008C188B /* Debug */,
+				A18BC9672043FCB5008C188B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A18BC9682043FCB5008C188B /* Build configuration list for PBXNativeTarget "TestNatriumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18BC9692043FCB5008C188B /* Debug */,
+				A18BC96A2043FCB5008C188B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A18BC9322043FCB5008C188B /* Project object */;
+}
